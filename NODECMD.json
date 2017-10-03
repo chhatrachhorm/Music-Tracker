@@ -1,0 +1,35 @@
+{
+  "Youtube Tutorial Owner" : "https://www.youtube.com/playlist?list=PLWKjhJtqVAbnadueQ-C5keMQQiQau_i0D",
+  "Installation" : {
+    "client module" : {
+      "CLI" : {
+        "installation" : "npm install -g vue-cli",
+        "list possible projects in vue-cli" : "vue list",
+        "init project" : "vue init webpack project-folder-name",
+        "to run sever" : "npm run dev"
+      },
+      "sending http request" : "npm install -save axios"
+    },
+    "Server Module" :{
+      "cmd" : {
+        "inti" : "npm init",
+        "dependencies" : {
+          "server config install" : "npm install -save nodemon eslint",
+          "install" : "npm install -save express body-parser cors morgan",
+          "eslint configuration" : "node node_modules/eslint/bin/eslint.js --init"
+        }
+      },
+      "database" : {
+        "package" : "npm install -save sequelize",
+        "db" : "npm install -save mysql2"
+      }
+    }
+  },
+  "node" : {
+    "to upgrade node" : {
+      "pre" : "download and install new version of node",
+      "1" : "npm cache clean",
+      "2" : "npm update -g"
+    }
+  }
+}
